@@ -1,14 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route } from 'react-router-dom';
+
+import GlobalStyles from './styles/GlobalStyles';
+
+import Header from './components/Header';
+import Artistas from './pages/Artistas';
+import Albuns from './pages/Albuns';
+import Streaming from './pages/Streaming';
+
 
 function App() {
   return (
-    <div>
-      <h1>
-        Hello World
-      </h1>
-    </div>
+    
+    <BrowserRouter>
+
+      <h1>AAAAAAAAAAAAAAAAAAAAAAA</h1>
+
+      <Header>
+      </Header> 
+      
+      <Route component={Artistas} path="/artistas" />
+      <Route component={Albuns} path="/albuns" />
+      <Route component={Streaming} path="/streaming" />
+
+    </BrowserRouter>
   );
 }
 
