@@ -19,7 +19,7 @@ const Header: React.FC = () => {
         </Link>
 
         <Link to="/streaming">
-          Albuns 
+          Streaming  
         </Link>
         
       </Menu>

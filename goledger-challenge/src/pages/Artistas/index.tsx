@@ -1,9 +1,22 @@
 import React from 'react';
+import Search from '../../components/Search';
 
-// import { Container } from './styles';
+import { Container, Main, TopSide, BottomSide} from './styles';
 
 const Artistas: React.FC = () => {
-  return <div />;
+  return(
+    <Container>
+      <Main>
+        <TopSide>
+        </TopSide>
+
+        <BottomSide>
+          
+        </BottomSide>
+      </Main>
+
+    </Container>
+  );
 }
 
 export default Artistas;

@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Artistas from './pages/Artistas';
 import Albuns from './pages/Albuns';
 import Streaming from './pages/Streaming';
+import Search from './components/Search';
 
 
 function App() {
@@ -14,10 +15,10 @@ function App() {
     
     <BrowserRouter>
 
-      {/* <h1>AAAAAAAAAAAAAAAAAAAAAAA</h1> */}
-
       <Header>
-      </Header> 
+      </Header>
+      <Search>
+      </Search>
       
       <Route component={Artistas} path="/artistas" />
       <Route component={Albuns} path="/albuns" />
