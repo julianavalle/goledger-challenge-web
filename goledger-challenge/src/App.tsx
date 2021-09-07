@@ -14,7 +14,7 @@ function App() {
     
     <BrowserRouter>
 
-      <h1>AAAAAAAAAAAAAAAAAAAAAAA</h1>
+      {/* <h1>AAAAAAAAAAAAAAAAAAAAAAA</h1> */}
 
       <Header>
       </Header> 
@@ -22,6 +22,8 @@ function App() {
       <Route component={Artistas} path="/artistas" />
       <Route component={Albuns} path="/albuns" />
       <Route component={Streaming} path="/streaming" />
+
+      <GlobalStyles />
 
     </BrowserRouter>
   );
